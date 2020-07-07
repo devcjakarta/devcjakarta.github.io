@@ -1,0 +1,59 @@
+.date {
+  color: grey;
+  font-size: 70%;
+}
+
+.clean-card h4 {
+  margin-bottom: 0px;
+}
+
+.clean-card .info {
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.event-card {
+  padding-top: 10px;
+}
+
+.speaker {
+  font-size: 80%;
+}
+
+.speaker ul {
+  padding-left: 20px;
+  /*font-size: 80%;*/
+}
+
+.speaker ul li {
+  /*padding-left: 20px;*/
+  /*font-size: 80%;*/
+}
+
+.card-subtitle, .card-text:last-child {
+}
+
+.card-subtitle, .card-text:last-child {
+}
+
+.lead-card .summary {
+  margin-top: 5px;
+  /*color: red;*/
+  font-size: 80%;
+}
+
+.volunteer-card .title {
+  font-size: 80%;
+}
+
+.volunteer-card {
+  padding-top: 10px;
+}
+
+.event-card .icons a {
+  font-size: 80%;
+}
+
