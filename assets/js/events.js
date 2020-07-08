@@ -1,7 +1,7 @@
 
 FilesURL = "https://store.rddmiksemar.id/files/";
 
-eventJsonURL = "https://raw.githubusercontent.com/devcjakarta/Public-Data/master/events.json";
+eventJsonURL = "https://raw.githubusercontent.com/devcjakarta/Public-Data/master/data/events.json";
 imageUrl = "https://raw.githubusercontent.com/devcjakarta/Public-Data/master/files/image/";
 Token = "";
 
