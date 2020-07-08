@@ -57,3 +57,10 @@
   font-size: 80%;
 }
 
+.volunteer-card .summary {
+  font-size: 70%;
+  margin-top: 5px;
+  max-height: 100px;
+  overflow-x: hidden;
+}
+
