@@ -30,6 +30,11 @@ function EventListCallback(AResponse){
                 key = item.replace("_url", "");
                 key = key.replace("_", " ");
                 value = others[item];
+                if (key == 'Registration'){
+                    if ((others['Video_url'] !== "")){
+                        value = '';
+                    }
+                }
                 if (value !== ""){
                     footerLink += '<a href="'+value+'">'+key+'</a>';
                 }
@@ -53,7 +58,6 @@ function EventListCallback(AResponse){
         html = html.replace(/%date%/g, date);
         html = html.replace(/%speaker%/g, speaker);
         html = html.replace('<span>%footerLink%</span>', footerLink);
-        console.log(footerLink);
         
         $( html ).insertBefore( $( "#card-template" ) );
     });
